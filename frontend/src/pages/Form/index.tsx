@@ -1,11 +1,6 @@
 
 import FormCard from 'components/FormCard';
-import { Link, useParams } from 'react-router-dom';
-import { Movie } from 'types/movies';
-
-type Props = {
-    movie : Movie
-}
+import { useParams } from 'react-router-dom';
 
 function Form() {
 
